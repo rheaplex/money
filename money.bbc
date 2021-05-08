@@ -1,0 +1,11 @@
+ 10 DIM word$(3)
+ 20 word$(1)="FUCK"
+ 30 word$(2)="YOU"
+ 40 word$(3)="MONEY"
+ 50 FOR i=1 TO 3
+ 60   FOR j=1 TO 3
+ 70     PRINT word$(j);
+ 80     IF j=i THEN PRINT ", "; ELSE PRINT " ";
+ 90   NEXT j
+100   PRINT
+110 NEXT i
